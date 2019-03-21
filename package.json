@@ -1,0 +1,55 @@
+{
+  "name": "ampersand-webpack-getting-started",
+  "version": "0.0.1",
+  "description": "Getting Started With Ampersand.js and Webpack",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "webpack-dev-server --open --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickButler/Ampersand-Webpack-Getting-Started.git"
+  },
+  "keywords": [
+    "Ampersand",
+    "Ampersand.js",
+    "Webpack",
+    "ES6",
+    "Babel"
+  ],
+  "author": "Rick Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RickButler/Ampersand-Webpack-Getting-Started/issues"
+  },
+  "homepage": "https://github.com/RickButler/Ampersand-Webpack-Getting-Started#readme",
+  "devDependencies": {
+    "ampersand-app": "^2.0.0",
+    "ampersand-collection": "^2.0.2",
+    "ampersand-collection-view": "^2.0.2",
+    "ampersand-form-view": "^7.1.0",
+    "ampersand-model": "^8.0.1",
+    "ampersand-rest-collection": "^6.0.0",
+    "ampersand-router": "^5.0.0",
+    "ampersand-state": "^5.0.3",
+    "ampersand-view": "^10.0.3",
+    "ampersand-view-switcher": "^3.0.0",
+    "lodash": "^4.17.11"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-lodash": "^3.3.4",
+    "clean-webpack-plugin": "^2.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash-webpack-plugin": "^0.11.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
